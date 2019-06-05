@@ -1,0 +1,13 @@
+.panel {
+  font-size: 1rem;               
+  padding: 1em;
+  border: 1px solid #999;
+  border-radius: 0.5em;
+}
+
+.panel > h2 {
+  margin-top: 0;
+  font-size: 1.6em;              
+  font-weight: bold;
+  text-transform: uppercase;
+}

@@ -1,0 +1,19 @@
+
+
+
+
+
+:root {
+  --main-font: Helvetica, Arial, sans-serif;
+  --brand-color: #369;                           
+}
+
+p {
+	font-family: var(--main-font, sans-serif);         
+	color: var(--brand-color, blue); 
+}
+
+
+
+
+

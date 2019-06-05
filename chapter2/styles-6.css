@@ -1,0 +1,10 @@
+
+:root {
+  font-size: calc(0.5em + 2vw);
+}
+
+.square {
+  width: 95vmin;
+  height: 95vmin;
+  background-color: #369;
+}
