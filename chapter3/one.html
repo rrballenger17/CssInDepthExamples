@@ -1,0 +1,39 @@
+<!doctype html>
+<head>
+  <link href="one.css" rel="stylesheet" type="text/css" />
+
+  <script type="text/javascript">
+  var rootElement = document.documentElement;
+  var styles = getComputedStyle(rootElement);                 
+  var mainColor = styles.getPropertyValue('--main-bg');       
+  console.log(String(mainColor).trim());                      
+
+  var rootElement = document.documentElement;
+  rootElement.style.setProperty('--main-bg', '#cdf');  
+</script>
+</head>
+
+
+<body>
+  <header>
+    <h1>Franklin Running Club</h1>
+  </header>
+  <div class="container">
+    <main class="main">
+      <h2>Come join us!</h2>
+      <p>
+        The Franklin Running club meets at 6:00pm every Thursday
+        at the town square. Runs are three to five miles, at your
+        own pace.
+      </p>
+    </main>
+    <aside class="sidebar">
+      <div class="widget"></div>
+      <div class="widget"></div>
+    </aside>
+  </div>
+</body>
+
+</html>
+
+
